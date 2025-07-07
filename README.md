@@ -7,16 +7,18 @@ This repository contains implementations and training experiments for feedforwar
 
 ## 📁 Project Structure
 
+
+```text
 .
 ├── model.py                 # Custom FNN logic (forward pass, backprop, training loop)
 ├── train.py                 # Trains the custom NumPy model on Lincoln Home Sales data
-├── train\_mnist\_sgd.py       # Trains a Keras model on MNIST (SGD optimizer)
-├── train\_mnist\_adam.py      # Trains a Keras model on MNIST (Adam optimizer)
-├── train\_fashion\_mnist.py   # Trains a Keras model on Fashion-MNIST (Adam optimizer)
+├── train_mnist_sgd.py       # Trains a Keras model on MNIST (SGD optimizer)
+├── train_mnist_adam.py      # Trains a Keras model on MNIST (Adam optimizer)
+├── train_fashion_mnist.py   # Trains a Keras model on Fashion-MNIST (Adam optimizer)
 ├── utils.py                 # Utility functions (activation functions, loss, data prep)
 ├── LincolnHomeSales.csv     # Dataset of single-family home sales in Lincoln, NE
 └── README.md                # This file
-
+```
 ---
 
 ## 📊 Datasets Used
