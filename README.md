@@ -18,7 +18,7 @@ This repository contains implementations and training experiments for feedforwar
 |  ├── train_mnist_sgd.py       # Trains a Keras model on MNIST (SGD optimizer)
 |  ├── train_mnist_adam.py      # Trains a Keras model on MNIST (Adam optimizer)
 |  ├── train_fashion_mnist.py   # Trains a Keras model on Fashion-MNIST (Adam optimizer)
-└── README.md                # This file
+└── README.md                   # This file
 ```
 ---
 
